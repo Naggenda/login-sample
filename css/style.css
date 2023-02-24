@@ -1,0 +1,55 @@
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 0 10px 0;
+    width: 30%;
+    padding: 40px 40px;
+}
+
+.title{
+    text-align: center;
+}
+
+.form-group{
+    position: relative;
+    margin: 3px 0;
+}
+
+.form-control{
+    width: 100%;
+    padding: 10px;
+    outline: none;
+}
+
+.err-msg{
+    color: red;
+    position: absolute;
+    display: none;
+}
+
+.btn{
+    padding: 5px 10px;
+    border-radius: 4px;
+    background-color: inherit;
+    border: 1px solid gray;
+    cursor: pointer;
+}
+
+.btn-success{
+    background-color: rgb(12, 170, 117);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+}
+
+@media screen and (max-width: 760px) {
+    .container{
+        width: 100%;
+    }
+}
